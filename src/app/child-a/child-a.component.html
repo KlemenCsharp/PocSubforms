@@ -1,0 +1,9 @@
+<h3>Child A</h3>
+
+<ng-container [formGroup]="formA">
+    <div class="test">
+        <kendo-label [for]="name" text="Name"></kendo-label>
+        <kendo-textbox formControlName="name" #name></kendo-textbox>
+    </div>
+       
+</ng-container>

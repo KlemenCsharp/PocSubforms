@@ -1,1 +1,15 @@
-<p>parent-form works!</p>
+<div class="content-container">
+
+    <h2>Test sub form</h2>
+
+    <form [formGroup]="nestedForm" (ngSubmit)="onSubmit()">
+
+        <app-child-a formControlName="childName"></app-child-a>
+
+        <app-child-b></app-child-b>
+
+        <button kendoButton type="submit">Submit</button>
+
+    </form>
+
+</div>
