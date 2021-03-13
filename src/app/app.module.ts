@@ -13,6 +13,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { InputsModule } from '@progress/kendo-angular-inputs';
 import { DropDownsModule } from '@progress/kendo-angular-dropdowns';
 import { LabelModule } from '@progress/kendo-angular-label';
+import { BillingInfoUnnestedComponent } from './billing-info-unnested/billing-info-unnested.component';
+import { BasicInfoComponent } from './basic-info/basic-info.component';
+import { BillingInfoComponent } from './billing-info/billing-info.component';
+import { AdressComponent } from './adress/adress.component';
 
 
 
@@ -24,7 +28,11 @@ import { LabelModule } from '@progress/kendo-angular-label';
     AppComponent,
     ParentFormComponent,
     ChildAComponent,
-    ChildBComponent
+    ChildBComponent,
+    BillingInfoUnnestedComponent,
+    BasicInfoComponent,
+    BillingInfoComponent,
+    AdressComponent
   ],
   imports: [
     BrowserModule,
