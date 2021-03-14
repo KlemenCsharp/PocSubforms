@@ -17,10 +17,7 @@ import { BillingInfoUnnestedComponent } from './billing-info-unnested/billing-in
 import { BasicInfoComponent } from './basic-info/basic-info.component';
 import { BillingInfoComponent } from './billing-info/billing-info.component';
 import { AdressComponent } from './adress/adress.component';
-
-
-
-
+import {MatTabsModule} from '@angular/material/tabs';
 
 
 @NgModule({
@@ -43,7 +40,8 @@ import { AdressComponent } from './adress/adress.component';
     DropDownsModule,
     LabelModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MatTabsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
